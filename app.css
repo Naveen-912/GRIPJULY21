@@ -1,0 +1,194 @@
+
+.page-holder {
+    height:auto;
+    width: auto;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-image: url(imgs/main.jpg);
+    border-radius: 0px 0px 15px 15px; 
+  }
+.nav-link{
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color:#0f7dcc !important;
+}
+.main-text{
+    height: 700px;
+    color: white;
+    font-size:2.5rem;
+    font-family: 'Playfair Display', serif;
+    
+}
+.main-text h1{
+    font-size: 130px;
+    width:100%;
+    margin-top:130px;
+    line-height:120px;
+    font-weight: 1000;
+    margin-left: 50px;
+    font-stretch:100%;
+    
+}
+.mainBtn{
+    text-decoration: none;
+    color:white;
+    font-family: 'poppins',sans-serif;
+    font-size: 20px;
+    background-color: transparent;
+    border:2px solid white;
+    border-radius:0px;
+    margin:30px 0px 0px 50px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition: all 300ms;
+}
+.mainBtn:hover{
+    border-radius: 20px;
+}
+.navbar.scrolled {
+    background: rgb(39, 37, 37);
+    transition: background 500ms;
+}
+.cards{
+    margin-top: 150px;
+}
+.all-h4{
+    color:#0f7dcc;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin: 0px 0px 30px 0px;
+}
+.all-h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    font-weight: 600 ;
+}
+.all-a{
+    margin-top:30px;
+    font-family: 'poppins',sans-serif;
+    width: 100px;
+    transition:all 1s;
+    border-radius: 50px;
+}
+.all-a:hover{
+    width:150px;
+    box-shadow: 0 0 10px #222222;
+    border-radius: 50px;
+}
+.about h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: #222222;
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+.all-p{
+    font-family: 'Noto Sans', sans-serif;
+    color:#777777;
+    font-size: 16px;
+    line-height: 27px;
+}
+.img-fluid{
+    border-radius: 0px 40px 40px 0px;
+    height: 700px;
+    width: 600px;
+}
+.mission{
+    margin-top:25px;
+}
+.mission div{
+    padding-left: 110px;
+    padding-top: 10px;
+}
+.mission h5{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color:#222222;
+    font-weight: 600;
+    margin-top: 25px;
+}
+.because{
+    margin:0px 20px 0px 50px;
+}
+.because h2{
+    margin-bottom: 70px;
+}
+.because-box h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color:#222222;
+    font-weight: 600;
+    margin: 40px 0px 10px 0px;
+    text-align: center;
+}
+.because-box img {
+    padding-left: 35px;
+}
+.because-box p{
+    text-align: center;
+}
+.because-box div{
+    margin-left: 50px;
+    border-radius: 10px;
+    transition-duration: 1s;
+  }
+.because-box div:hover{
+    box-shadow: 0 0 20px #222222;
+}
+.donate h2{
+    margin:0px 300px 0px 300px;
+}
+.foot-text{
+    margin:75px 0px 20px 75px;
+}
+.foot-text img{
+    width:110px;
+    height:42px;
+    margin-bottom: 20px;
+}
+.foot-text p{
+    width:238px;
+    height: 168px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.foot-con{
+    margin-top:75px;
+    margin-left: 25px;
+}
+.foot-con h4{
+    color:white;
+    padding-top: 10px;
+    margin-bottom:30px;
+    font-weight: bold;
+}
+.foot-con div{
+    margin-bottom: 25px;
+}
+.foot-con img{
+    width: 18px;
+    height:18px;
+    margin-right: 10px;
+}
+.foot-con p,.foot-con a{
+    color:white;
+    display: inline;
+    font-size:16px;
+    text-decoration: none;
+}
+@media screen and (max-width:992px){
+
+}
+/* font face */
+@font-face{
+    font-family: Playfair Display;
+    src:url(/fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
